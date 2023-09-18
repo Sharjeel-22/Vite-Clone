@@ -4,15 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { MainSectionComponent } from './main-section/main-section.component';
+import { RouterModule } from '@angular/router';
+import { CardListComponent } from './card-list/card-list.component';
+import { MiddleSectionComponent } from './middle-section/middle-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    MainSectionComponent,
+    CardListComponent,
+    MiddleSectionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

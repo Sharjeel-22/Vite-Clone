@@ -1,0 +1,43 @@
+.middle-section-wrapper {
+  width: 100%;
+  margin-top: 10vh;
+  border-top:2px solid #eee;
+  height: 90vh;
+  border-bottom: 2px solid #eee;
+}
+.middle-section-header {
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+.icon[data-v-975816d8] {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+.love[data-v-975816d8] {
+  margin: 0 auto;
+  width: 28px;
+  height: 28px;
+  color: rgba(60, 60, 67, .33);
+}
+
+.middle-info-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 80%;
+  color: rgba(60, 60, 67, .75);
+  background-color:#ededf0;
+}
+.message[data-v-975816d8] {
+  margin: 0 auto;
+  padding-top: 10px;
+  max-width: 320px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
